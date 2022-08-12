@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <script src="main.js"></script>
+    </head>
+
+    <body>
+      <main>
+        <div class="container">
+          <h1>BMI calculator</h1>
+
+          <input type="text" id="weight" placeholder="Weight in kg" required>
+          <label for="weight">Weight</label>
+          <br>
+          <br>
+          <input type="text" id="height" placeholder="Height in m" required>
+          <label for="height">Height</label>
+          <br>
+          <br>
+          <button id="myBtn" type="submit">Submit</button>
+          <br>
+          <br>
+          <p id="result"></p>
+        </div>
+      </main>
+    </body>
+</html>
+
+<!--
+******************** GIT SETUP FOR THIS PROJECT ********************
+
+$ git config --global user.name "Justin Erasmus"  
+$ git config --global user.email "erasmusjustin96@gmail.com"
+
+These two credentials are simply used to give you credit for the work that you'll be doing with the version control system.
+From here, we can advance to actually makin g our first use of git.
+
+$ git init project1
+
+This creates a directory of that last parameter that we passed in (project1). It is stored on the local machine (under the "demo-repo" repository that we've created earlier.).
+
+$ cd project1
+
+We'll change directory, situating ourselves inside that project directory.
+
+$ git add index.html
+
+Next, we create the file "index.html" and "main.js" and we add that to version control. Adding in this case opts it in to
+the next action, which is a commit. The "add" is not yet permanent; it's simply signalling that we want the file to
+participate in the next commit.
+
+$ git commit -m"My first commit! YAY!"
+
+We'll conclude by making that permanent record, recording ther state of the file at a given point in time, and we do that
+with the "commit command". The "-m" allows us to provide a commit message at the command line. It can be used to describe 
+what happened in the activities that are being recorded for this file.
+-->
